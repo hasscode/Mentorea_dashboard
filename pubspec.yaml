@@ -34,6 +34,14 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.17
+  modal_progress_hud_nsn: ^0.5.1
+  fl_chart: ^0.70.2
+  intl: ^0.20.2
+  data_table_2: ^2.6.0
+  light_dark_theme_toggle: ^1.1.2
+  flutter_bloc: ^9.1.0
+  shared_preferences: ^2.5.3
 
 dev_dependencies:
   flutter_test:
@@ -58,8 +66,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -73,13 +81,17 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
+  fonts:
+    - family: NunitoSans
+      fonts:
+        - asset: assets/fonts/NunitoSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/NunitoSans-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/NunitoSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/NunitoSans-SemiBold.ttf
+          weight: 600
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
