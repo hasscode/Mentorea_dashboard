@@ -21,6 +21,8 @@ abstract class Assets{
   static const String iconFlutter ="assets/images/fluttericon.svg";
   static const String iconDataEng ="assets/images/DataEngicon.svg";
   static const String iconExperience ="assets/images/experience.svg";
+  static const String iconDate ="assets/images/dateIcon.svg";
+  static const String iconTime="assets/images/timeIcon.svg";
   static const String imagesPerson ="assets/images/person.png";
   static const String imagesPersonMentor ="assets/images/person2.png";
   static const String imagesPersonMentor2 ="assets/images/mentor3.jpg";

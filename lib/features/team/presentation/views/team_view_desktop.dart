@@ -11,12 +11,13 @@ import '../widgets/team_member_card_widget.dart';
 class TeamViewDesktop extends StatelessWidget {
   TeamViewDesktop({super.key});
 List<TeamMemberModel>team=[
-  TeamMemberModel(img: Assets.imagesPerson, name: 'Jason Price', role: 'Admin', eMail: 'janick_parisian@yahoo.com'),
-  TeamMemberModel(img: Assets.imagesPerson, name: 'Jason Price', role: 'Admin', eMail: 'janick_parisian@yahoo.com'),
-  TeamMemberModel(img: Assets.imagesPerson, name: 'Jason Price', role: 'Admin', eMail: 'janick_parisian@yahoo.com'),
-  TeamMemberModel(img: Assets.imagesPerson, name: 'Jason Price', role: 'Admin', eMail: 'janick_parisian@yahoo.com'),
-  TeamMemberModel(img: Assets.imagesPerson, name: 'Jason Price', role: 'Admin', eMail: 'janick_parisian@yahoo.com'),
-  TeamMemberModel(img: Assets.imagesPerson, name: 'Jason Price', role: 'Admin', eMail: 'janick_parisian@yahoo.com'),
+  TeamMemberModel(img: 'assets/images/Hassan-Hany_team-member.jpg', name: 'Hassan Hany', role: 'Admin', eMail: 'janick_parisian@yahoo.com'),
+  TeamMemberModel(img: 'assets/images/MahmoudKamal.jpg', name: 'Mahmoud Kamal', role: 'Admin', eMail: 'janick_parisian@yahoo.com'),
+  TeamMemberModel(img: "assets/images/AhmedSayed.jpg", name: 'Ahmed El-Sayed', role: 'Admin', eMail: 'janick_parisian@yahoo.com'),
+  TeamMemberModel(img: 'assets/images/mahmoudFawzy.jpg', name: 'Mahmoud Fawzy', role: 'Admin', eMail: 'janick_parisian@yahoo.com'),
+  TeamMemberModel(img: 'assets/images/AbdAllah.jpg', name: 'Abd-Allah Emad-Eldin', role: 'Admin', eMail: 'janick_parisian@yahoo.com'),
+  TeamMemberModel(img: 'assets/images/AhmedEssa.jpg', name: 'Ahmed Mahmoud', role: 'Admin', eMail: 'janick_parisian@yahoo.com'),
+
 ];
   @override
   Widget build(BuildContext context) {

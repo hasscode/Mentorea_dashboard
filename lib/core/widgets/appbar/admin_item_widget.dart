@@ -8,7 +8,7 @@ class AdminItemWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Row(children: [
-      CircleAvatar( radius: 22,child: SvgPicture.asset(Assets.imagesAdminPic),),
+      CircleAvatar( radius: 22,backgroundImage: AssetImage('assets/images/Hassan-Hany_team-member.jpg'),),
       SizedBox(width: 15,),
       Text('Hassan Hany',style: AppStyles.styleBold14.copyWith(color: Color(0xff404040)),)
     ],);

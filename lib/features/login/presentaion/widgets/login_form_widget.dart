@@ -5,7 +5,7 @@ import '../../../../../core/theme/app_text_styles.dart';
 import '../../../../../core/widgets/adaptive_layout_builder.dart';
 import '../../../../../core/widgets/custom_button.dart';
 import '../../../../../core/widgets/custom_text_form_field.dart';
-import '../../../dashboard/presentation/views/home_view_desktop.dart';
+import '../../../../core/widgets/home_view_desktop.dart';
 
 
 
@@ -108,11 +108,7 @@ class _LoginFormWidgetState extends State<LoginFormWidget> {
                     style: AppStyles.styleSemiBold18.copyWith(color: Color(0xff797A7C)),
                   ),
                   Spacer(),
-                  Text(
-                    'Forget Password?',
-                    style: AppStyles.styleSemiBold18
-                        .copyWith(color: Color(0xff797A7C)),
-                  )
+
                 ],
               ),
             ),

@@ -13,7 +13,7 @@ class SessionsTableWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Theme(
       data: Theme.of(context).copyWith(
-        cardTheme: const CardTheme(color: Colors.white),
+        cardTheme: const CardThemeData(color: Colors.white),
       ),
       child: PaginatedDataTable2(
         fixedColumnsColor: Colors.white,

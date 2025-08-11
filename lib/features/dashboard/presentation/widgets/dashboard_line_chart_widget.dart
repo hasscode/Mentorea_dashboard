@@ -17,7 +17,7 @@ class DashboardLineChartWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "Sales Details",
+            "User-to-Session Interaction Metrics",
             style: AppStyles.styleBold24,
           ),
           SizedBox(height: 37),

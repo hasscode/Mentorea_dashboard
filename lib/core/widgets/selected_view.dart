@@ -26,8 +26,8 @@ class SelectedView extends StatelessWidget {
     PaymentTransactionsView(),
     ToDoView(),
     AddNewMemberView(),
-   // addNewMemberPageSelected ? AddNewMemberView():TeamViewDesktop(),
-    Container(color: Colors.cyan,),
+    // addNewMemberPageSelected ? AddNewMemberView():TeamViewDesktop(),
+    SettingsView(),
 
   ];
 
